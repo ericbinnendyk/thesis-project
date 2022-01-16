@@ -1,0 +1,9 @@
+[submodule "ndn-cxx"]
+	path = ndn-cxx
+	url = https://github.com/nsol-nmsu/ndn-cxx-QoS
+[submodule "co-simulation"]
+	path = co-simulation
+	url = https://github.com/NmsuNsol/NDN-PowerSysCoSim
+[submodule "NFD"]
+	path = NFD
+	url = https://github.com/nsol-nmsu/NFD-QoS

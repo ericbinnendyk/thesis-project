@@ -1,0 +1,13 @@
+C++ program: Send over the state s.
+    in nn-input.txt
+Use the neural network to predict the value Q(s, a) for all actions a.
+    Done by predict-RL-model
+Python script: come up with an action A and send it. Usually the a that leads to the maximum Q(s, a) but sometimes random.
+    Done by predict-RL-model. Put in output.txt.
+C++ program: apply A and come up with a reward r. Send r back.
+    Done after 1 second. r appended to output.txt.
+    The new state s' is also sent over in nn-input.txt.
+Python script: Compare r + gamma*max(Q(s', a')) to Q(s, a) and adjust model.
+    Done by predict-RL-model again.
+
+Later, copy neural network theta to theta'?
