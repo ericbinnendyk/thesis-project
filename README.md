@@ -3,7 +3,7 @@ The programming project I am working on for my master's thesis, about using rein
 
 For now, this is just a backup of the actual working directory I use.
 
-Prerequisites for running the code are C++ and Python 3 ZeroMQ libraries, Numpy, Tensorflow, and Keras.
+Prerequisites for running the code are C++ and Python 3 ZeroMQ libraries, Numpy, Tensorflow, and Keras. R is needed to plot network results.
 
 NOTE: This code doesn't compile yet because ndnSIM compilation seems to be dependent on the code being split into submodules.
 
